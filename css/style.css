@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+#################### Html Element Styling #################
 html{
     font-size: 62.5%;
 }
@@ -30,6 +31,11 @@ h1, h2, h3{
 }
 
 ############ utility classes #############
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto; 
+}
 .lg-heading{
     font-size: 3.5rem;
 }
@@ -48,7 +54,7 @@ h1, h2, h3{
 .text-gray{
     color: #555555;
 }
-
+###################### header Styling ################
 .header{
     height: 70vh;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) , url("../image/header-image.jpg");
