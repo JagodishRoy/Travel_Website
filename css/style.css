@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-#################### Html Element Styling #################
+/* #################### html element Styling ################# */
 html{
     font-size: 62.5%;
 }
@@ -30,11 +30,11 @@ h1, h2, h3{
     font-weight: 500;
 }
 
-############ utility classes #############
+/* ############ utility classes ############# */
 .container{
     max-width: 1200px;
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 .lg-heading{
     font-size: 3.5rem;
@@ -54,16 +54,16 @@ h1, h2, h3{
 .text-gray{
     color: #555555;
 }
-###################### header Styling ################
+/* ###################### header Styling ################ */
 .header{
     height: 70vh;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) , url("../image/header-image.jpg");
+    background: url("../image/header-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 } 
 .navbar{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding: 1rem;
 }
 .header .navbar .logo{
@@ -81,6 +81,12 @@ h1, h2, h3{
 .navbar a:link,
 .navbar a:visited{
     color: #f4f4f4;
+}
+.navbar a{
+    padding-bottom: 0.3rem;
+}
+.navbar a:hover{
+    border-bottom: 1px solid #fff;
 }
 .navbar::after{
     content: "";
