@@ -65,6 +65,19 @@ h1, h2, h3{
     background-color: white;
     border-radius: 10em;
 }
+.btn-primary:hover{
+    background-color: #dddddd;
+    
+}
+.btn-secondary{
+    border: 2px solid #e63946;
+    border-radius: 1.5em;
+    color: #e63946;
+    background: #ffffff;
+}
+.btn-secondary:hover{
+    background-color: #f2e468;
+}
 
 
 /* ###################### header Styling ################ */
@@ -124,4 +137,48 @@ h1, h2, h3{
 }
 .header-content p{
     text-transform: uppercase;
+}
+
+/* ########### showcase section ############### */
+.showcase{
+    background: #dddddd;
+    padding: 10rem 0;
+}
+.row{
+    height: 350px;
+    /* border: 2px solid red; */
+    background: #ffffff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.332);
+}
+.row1{
+    margin-bottom: 10rem;
+}
+.row1 .img-box,
+.row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .img-box,
+.row1 .text-box{
+    float: right;
+    width: 50%;
+}
+.row .img-box{
+    /* border: 2px solid green; */
+    height: 100%;
+}
+.row .text-box{
+    /* border: 2px solid rebeccapurple; */
+    padding: 3rem;
+}
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
 }
