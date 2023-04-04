@@ -182,3 +182,32 @@ h1, h2, h3{
     display: block;
     clear: both;
 }
+
+/* ############# features section styling ############## */
+.features{
+    padding: 10rem 0;
+}
+.box-wrapper{
+    /* border: 2px solid green; */
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.171);
+}
+.box{
+    width: 33.333333333333%;
+    float: left;
+    /* border: 2px solid red; */
+    padding: 2rem;
+    text-align: center;
+}
+.box-1, .box-3{
+    background-color: #130b0b;
+    color: white;
+}
+.box-2{
+    background: #bd4b54;
+    color: white;
+}
+.box-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
