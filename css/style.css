@@ -211,3 +211,14 @@ h1, h2, h3{
     display: block;
     clear: both;
 }
+
+/* ################ Footer styling ################  */
+.footer{
+    background: #263238;
+    color: #f5ce0a;
+    padding: 2rem;
+    text-align: center;
+}
+.social-media-links i{
+    margin: 2rem;
+}
