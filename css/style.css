@@ -189,7 +189,7 @@ h1, h2, h3{
 }
 .box-wrapper{
     /* border: 2px solid green; */
-    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.171);
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.383);
 }
 .box{
     width: 33.333333333333%;
