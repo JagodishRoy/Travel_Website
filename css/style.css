@@ -54,6 +54,10 @@ h1, h2, h3{
 .text-gray{
     color: #555555;
 }
+.bg-dark{
+    background-color: #263232;
+
+}
 .btn{
     display: inline-block;
     padding: 0.5em 1.5em;
@@ -94,14 +98,14 @@ h1, h2, h3{
     /* border: 2px solid white; */
     padding: 1rem;
 }
-.header .navbar .logo{
+/* .header */ .navbar .logo{
     float: left;
 }
-.header .navbar .nav-items{
+/* .header */ .navbar .nav-items{
     float: right;
     margin-top: 1rem;
 }
-.header .navbar .nav-item{
+/* .header */ .navbar .nav-item{
     display: inline-block;
     padding: 1rem;
     text-transform: uppercase;
@@ -221,4 +225,69 @@ h1, h2, h3{
 }
 .social-media-links i{
     margin: 2rem;
+}
+
+/* ########## About page Styling ############# */
+.about{
+    padding: 5rem 0;
+}
+/* .about-heading{
+    border-bottom: 6px solid #e63946;
+} */
+.about-heading::after{
+    content: "";
+    display: block;
+    border: 2px solid #e63946;
+    width: 100%;
+}
+.about-wrapper{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 2rem;
+}
+.about-wrapper .left{
+     float: left;
+     width: 50%;
+}
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
+.about-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.about-wrapper li::before{
+    content: "\2713";
+    color: #e63946;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+/* count styling ################## */
+.counts{
+    border: 2px solid brown;
+    margin-top: 3rem;
+}
+.count-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    border: 2px solid black;
+
+}
+.counts::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.count-item span{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #d81f1f;
+}
+.count-item p{
+    font-weight: 700;
+    color: #555555;
 }
