@@ -346,8 +346,9 @@ h1, h2, h3{
     clear: both;
 }
 .form-wrapper .company-address{
+    height: 760px;
     background: #ede5e5;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 49%;
     float: left;
     padding: 1rem;
@@ -366,9 +367,50 @@ h1, h2, h3{
     object-fit: cover;
     object-position: right;
 }
+/* form styling ################# */
 .form-wrapper .form{
+    height: 760px;
+    font-size: 1.6rem;
     background: #ede5e5;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 49%;
     float: right;
+    padding: 1rem;
+}
+.form h1::after{
+    content: "";
+    display: block;
+    border: 3px solid red;
+    width: 100%;
+}
+.form-wrapper .form label{
+    display: block;
+}
+.form-wrapper .form input{
+    padding: 0.5rem;
+    width: 100%;
+}
+.form-wrapper .form .form-group{
+    margin-bottom: 1.2rem;
+}
+.form-wrapper .form label::after{
+    content: "*";
+    color:#d81f1f;
+}
+.form-wrapper .form textarea{
+    width: 100%;
+    height: 300px;
+    padding: 1rem;
+}
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    padding: .5em 3em;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: #e63946;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
