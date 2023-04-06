@@ -330,3 +330,45 @@ h1, h2, h3{
     display: block;
     clear: both;
 }
+
+
+/* contact form styling #################### */
+.contact-form{
+    padding: 5rem 0;
+    background: #948686;    
+}
+/* .form-wrapper{
+    border: 10px solid red;
+} */
+.form-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.form-wrapper .company-address{
+    background: #ede5e5;
+    border: 2px solid green;
+    width: 49%;
+    float: left;
+    padding: 1rem;
+}
+.form-wrapper .company-address i{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.form-wrapper .company-address h2{
+    display: inline-block;
+    text-transform: uppercase;
+}
+.form-wrapper .company-address img{
+    max-width: 90%;
+    min-width: 40rem;
+    object-fit: cover;
+    object-position: right;
+}
+.form-wrapper .form{
+    background: #ede5e5;
+    border: 2px solid yellow;
+    width: 49%;
+    float: right;
+}
